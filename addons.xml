@@ -1,0 +1,62 @@
+<addons>
+    <addon id="palai103.dependencies" name="Palai103 Dependencies" provider-name="palai103"
+        version="0.0.13">
+        <requires>
+            <import addon="repository.palai103" />
+        </requires>
+        <extension point="xbmc.python.module" library="resources/modules" />
+        <extension point="xbmc.addon.metadata">
+            <description lang="en">Dependencies required by all Palai103 add-ons</description>
+            <reuselanguageinvoker>true</reuselanguageinvoker>
+            <license></license>
+            <language></language>
+            <website></website>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="anime.saturn.addon"
+        version="1.0.3"
+        name="AnimeSaturn Addon"
+        provider-name="palai103">
+        <requires>
+            <import addon="palai103.dependencies" version="0.0.13" />
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="main.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">AnimeSaturn Addon</summary>
+            <description lang="en_GB">AnimeSaturn addon for Kodi</description>
+            <disclaimer lang="en_GB">Online Contents The author accepts no liability for the quality
+                of the
+                information provided or for it being correct, complete or up to date. Liability
+                claims against
+                the author concerning either material or intellectual damage or other detrimental
+                results
+                resulting from the use or non-use of any information provided, including any
+                information that
+                is either incomplete or incorrect, will therefore be rejected unless either
+                deliberate or
+                gross egligence on the part of the author can be proven. All offers are subject to
+                change and
+                are non-binding. The author reserves the express right to amend, add to, or delete
+                ections of
+                the online content without prior notice or to discontinue all or part of the online
+                content
+                either permanently or temporarily.</disclaimer>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.png</fanart>
+                <screenshot>resources\screenshot-01.jpg</screenshot>
+                <screenshot>resources\screenshot-02.jpg</screenshot>
+                <screenshot>resources\screenshot-03.jpg</screenshot>
+            </assets>
+        </extension>
+        <settings>
+            <setting id="test" value="" />
+        </settings>
+    </addon>
+</addons>

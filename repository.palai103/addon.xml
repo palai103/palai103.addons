@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.palai103" name="Palai103 Repository" provider-name="palai103" version="0.0.8">
+  <extension point="xbmc.addon.repository" name="Palai103 Repository">
+    <dir>
+      <info compressed="false"></info>
+      <datadir zip="true"></datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">Addons by Palai103</description>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>

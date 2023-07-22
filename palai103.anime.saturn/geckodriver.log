@@ -1,0 +1,41 @@
+1659008890568	geckodriver	INFO	Listening on 127.0.0.1:49372
+1659008891081	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49373" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/7w/h2sg4scj0tj6y18zs4c5x2qc0000gn/T/rust_mozprofilelB6FBx"
+1659008914874	Marionette	INFO	Marionette enabled
+2022-07-28 13:48:34.981 plugin-container[83039:6488699] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 13:48:34.981 plugin-container[83039:6488699] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 13:48:35.024 plugin-container[83039:6488699] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 13:48:35.024 plugin-container[83039:6488699] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 13:48:35.025 plugin-container[83039:6488750] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 13:48:35.025 plugin-container[83039:6488750] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659008915119	Marionette	INFO	Listening on port 49380
+WebDriver BiDi listening on ws://localhost:49373
+Read port: 49380
+1659008915381	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/7w/h2sg4scj0tj6y18zs4c5x2qc0000gn/T/rust_mozprofilelB6FBx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49373/devtools/browser/2aeabcb9-bff9-42f2-9356-aba120b76d1e
+1659008993731	geckodriver	INFO	Listening on 127.0.0.1:49408
+1659008994239	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49409" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/7w/h2sg4scj0tj6y18zs4c5x2qc0000gn/T/rust_mozprofilep1MxfG"
+2022-07-28 13:49:54.873 plugin-container[83100:6489673] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 13:49:54.873 plugin-container[83100:6489673] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 13:49:54.877 plugin-container[83100:6489673] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 13:49:54.877 plugin-container[83100:6489673] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 13:49:54.877 plugin-container[83100:6489675] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 13:49:54.877 plugin-container[83100:6489675] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659008994901	Marionette	INFO	Marionette enabled
+1659008994947	Marionette	INFO	Listening on port 49416
+WebDriver BiDi listening on ws://localhost:49409
+Read port: 49416
+1659008995288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/7w/h2sg4scj0tj6y18zs4c5x2qc0000gn/T/rust_mozprofilep1MxfG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49409/devtools/browser/f11480cb-3df5-421a-a2c8-544cecb4e9ab
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+2022-07-28 11:50:02.601 plugin-container[83122:6490011] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 11:50:02.601 plugin-container[83122:6490011] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 11:50:02.605 plugin-container[83122:6490011] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 11:50:02.605 plugin-container[83122:6490011] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-28 11:50:02.605 plugin-container[83122:6490012] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-28 11:50:02.605 plugin-container[83122:6490012] nil host used in call to allowsAnyHTTPSCertificateForHost:
+[Parent 83097, IPC Launch #1] WARNING: parent MachReceivePortSendRight failed: 0x10004003 (ipc/rcv) timed out: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:1301
+[Parent 83097, IPC I/O Parent] WARNING: Failed to launch tab subprocess: file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:759
+1659173496962	Marionette	INFO	Stopped listening on port 49416
+1659173528422	Marionette	INFO	Stopped listening on port 49380

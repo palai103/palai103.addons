@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting visible="false" label="33000" type="text" id="test" default="NOT changed!" />
+
+    <setting visible="false" enable="false" label="33000" type="text" id="current_playlist" default="{'name': '', 'thumb': '', 'episodes': ''}" />
+    <setting visible="false" enable="false" label="33000" type="text" id="current_episodes" default="[{'name': '', 'url': ''}]" />
+</settings>
