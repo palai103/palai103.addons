@@ -2,8 +2,8 @@
 <addon id="repository.palai103" name="Palai103 Repository" provider-name="palai103" version="0.0.8">
   <extension point="xbmc.addon.repository" name="Palai103 Repository">
     <dir>
-      <info compressed="false"></info>
-      <datadir zip="true"></datadir>
+      <info compressed="false">https://github.com/palai103/palai103.addons/blob/main/addons.xml</info>
+      <datadir zip="true">https://github.com/palai103/palai103.addons/tree/main</datadir>
     </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
